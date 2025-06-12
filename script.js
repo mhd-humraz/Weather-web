@@ -36,7 +36,13 @@ async function getWeather() {
         </div>
       `).join("");
 
-    document.getElementById("forecastResult").innerHTML = `<h3>5-Day Forecast</h3>${forecastHTML}`;
+   document.getElementById("forecastResult").innerHTML = `
+  <h3>5-Day Forecast</h3>
+  <div class="forecast-container">
+    ${forecastHTML}
+  </div>
+`;
+
   } catch (error) {
     document.getElementById("weatherResult").innerHTML = `<p>${error.message}</p>`;
     document.getElementById("forecastResult").innerHTML = ``;
