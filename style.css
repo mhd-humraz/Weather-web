@@ -13,7 +13,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
   text-align: center;
-  width: 70%;
+  width: 350px;
 }
 
 .input-group {
@@ -39,7 +39,7 @@ button {
 }
 
 #weatherResult, #forecastResult {
-  margin-top: 20%;
+  margin-top: 20px;
 }
 
 .forecast-day {
